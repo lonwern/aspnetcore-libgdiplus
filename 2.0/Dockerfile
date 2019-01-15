@@ -1,6 +1,6 @@
 FROM microsoft/aspnetcore:2.0
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends libgdiplus \
+    && apt-get install -y --no-install-recommends libgdiplus libc6-dev \
     && apt-get clean \
-    && rm -r /var/lib/apt/lists /var/cache/apt/archives
+    && rm -rf /var/lib/apt/lists /var/cache/apt/archives
