@@ -1,1 +1,1 @@
-# aspnetcore with libgdiplus
+# aspnetcore runtime with libgdiplus
